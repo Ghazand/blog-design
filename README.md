@@ -5,8 +5,7 @@ Feature post
 <img width="1353" alt="Screenshot 2024-03-30 at 3 07 23 PM" src="https://github.com/Ghazand/blog-design/assets/37634777/6b0e7628-9488-4ef1-8bf1-47f0eddd909f">
 
 That is an individual post design with a tag, title, the body of the post, and the associated user.
-<img width="1362" alt="Screenshot 2024-03-30 at 3 00 10 PM" src="
-2 posts in the row<img width="1355" alt="Screenshot 2024-03-30 at 3 10 53 PM" src="https://github.com/Ghazand/blog-design/assets/37634777/833eb0f4-a99c-4e98-9fee-340d9bb84bd5">
+
 
 <img width="950" alt="Screenshot 2024-03-30 at 3 08 56 PM" src="https://github.com/Ghazand/blog-design/assets/37634777/cd0eb2b3-51f8-451e-8c8b-aa6ccdc99328">
 
