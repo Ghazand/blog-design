@@ -11,7 +11,7 @@ The index blog looks like the one below where one post is a feature post, and th
 ->Single Post
 <img width="1355" alt="Screenshot 2024-03-30 at 3 17 59 PM" src="https://github.com/Ghazand/blog-design/assets/37634777/04489eda-06be-413f-8f80-d98d69b381d6">
 
-That is an individual post design with a tag, title, the body of the post, and the associated user.
+->2 posts with a tag, title, the body of the post, and the associated user.
 
 
 <img width="950" alt="Screenshot 2024-03-30 at 3 08 56 PM" src="https://github.com/Ghazand/blog-design/assets/37634777/cd0eb2b3-51f8-451e-8c8b-aa6ccdc99328">
