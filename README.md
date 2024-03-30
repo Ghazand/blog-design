@@ -12,7 +12,7 @@ That is an individual post design with a tag, title, the body of the post, and t
 
 ->3 posts in the row
 <img width="964" alt="Screenshot 2024-03-30 at 3 08 16 PM" src="https://github.com/Ghazand/blog-design/assets/37634777/61df51d3-bc6e-460e-b7db-71e0d580dc83">
-https://github.com/Ghazand/blog-design/assets/37634777/76ec802e-7b3b-43c7-b913-66ac899c1c4c">
+
 
 ->The footer of the blog website and subscription email
 <img width="1354" alt="Screenshot 2024-03-30 at 3 02 13 PM" src="https://github.com/Ghazand/blog-design/assets/37634777/8e10dc20-8e0f-4863-98ea-2b511b769905">
