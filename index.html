@@ -1,0 +1,405 @@
+<!doctype html>
+
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com" ></script>
+    <script src="/fonts/Open_Sans.zip"></script>
+
+
+<body style="font-family: Open Sans, sans-serif">
+    <section class="px-6 py-8">
+
+        <nav class="flex justify-between items-center">
+            
+            <div>
+                <a href="/">
+                    <img src="./images/logo.png"  width="100", height="16" alt="Logo">
+                </a>
+            </div>
+            <div>
+                <a href="/" class="text-xs  font-bold uppercase">Home page</a>
+        
+                <a href="#"class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5 transition-colors duration-300 hover:bg-blue-600">Subscribe for updates</a>
+
+            </div>
+        </nav>    
+        <header class="max-w-4xl mx-auto mt-20 text-center" >  
+        
+            <!-- <div class="container max-auto"> -->
+                <div class="max-w-xl mx-auto">
+
+                    <h1 class="text-4xl">   
+                        Here is your <span class="text-blue-500">Latest Blog</span>
+                        
+                    </h1> 
+                    <h2 class="inline-flex mt-3">
+                        By Harry styles <img src="images/user.png" width="20" alt="user-pic">
+                    </h2>
+
+                    <p class="text-sm mt-14">
+                        What going on in world, here is new 
+                        blog
+                    </p>
+                    <div class="tw-flex tw-justify-center space-x-5  mt-8 ">
+                        <!-- Category -->
+                        <span class="bg-gray-200 inline-block pd-2 rounded-xl">
+                            <select class="bg-transparent font-semibold px-5 py-2 text-sm" >
+                                <option value="category" disabled selected
+                                >Category</option>
+                                <option value="personal">Personal</option>
+                                <option value="business">Business</option>
+                            </select>        
+                        </span>
+
+                                <!-- other option -->
+                        <span class="bg-gray-200 inline-block pd-2 rounded-xl">
+                                <select class="bg-transparent font-semibold px-5 py-2 text-sm" >
+                                    <option value="category" disabled selected
+                                    >opotions</option>
+                                    <option value="ja">Ja</option>
+                                    <option value="nien">nien</option>
+                                </select>        
+                        </span> 
+
+<!-- search -->
+                        <span class="bg-gray-200 inline-block pd-2 rounded-xl px-3 py-2 ">
+                                <form method="GET" action="#">
+                                    <input type="text" name="search" placeholder="Find something" class="bg-transparent font-semibold placeholder-black text-sm">
+
+                               </form>      
+                        </span> 
+                    </div>
+
+                    
+                </div>
+                    
+              
+
+            <!-- </div> -->
+        
+        </header>
+        <main class="max-w-6xl mx-auto mt-20 space-y-4 ">
+            <article class="bg-gray-100 rounded-xl  transition-colors duration-300 hover:border border=black border-opacity-5 ">
+                <div class="py-6 px-5 flex">
+                    <div class="flex-1 mr-8">
+                        <img src="images/blog.jpeg" alt="Blog things in detail" class="rounded-xl">
+                    </div>
+                    <div class="flex flex-1 flex-col justify-between">
+                        <header>
+                            <div class="space-x-4">
+                                <a href="#" class="px-3 py-3 border border-blue-300 text-blue-300 rounded-full font-semibold  text-xs uppercase">Technique</a>
+                                <a href="#" class="px-3 py-3 border border-red-300 text-red-300 rounded-full font-semibold  text-xs uppercase">Updates</a>
+                            </div>
+                            <div>
+                                <h1 class="text-3xl mt-4">Yah kdksk klklewioqjfeo lkwnqeonoi woenorij woeoij!</h1>
+                                <!-- <time class="mt-2 block text-gray-400 text-xs">2 day</time> -->
+                                <span class="mt-2 block text-gray-400 text-xs">
+                                    Publised <time>1 day</time>
+                                </span>
+
+                            </div>
+
+                        </header>
+
+                        <div class="text-sm mt-2">
+
+                            <p>skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+                            <p class="mt-4">skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+
+
+                        </div>
+                        <footer class="flex justify-between mt-8 items-center">
+                        
+                            <div class="flex items-center text-sm">
+                                <img src="images/user.png" width=20 alt="user-hear">
+                                <div class="ml-3">
+                                    <h5 class="font-bold">HHosdiei</h5>
+                                    <h6>Picutor at user</h6>
+                                </div>
+                            </div>
+
+                            <div>
+                                <a href="#" class="text-sm font-semibold bg-gray-200 rounded-full py-2 px-3">Read more</a>
+                            </div>
+                        </footer>
+
+                    </div>
+
+                        
+
+                </div>
+            </article>
+
+            <div class="grid grid-cols-2">
+                <article class="bg-gray-100 rounded-xl  transition-colors duration-300 hover:border border=black border-opacity-5">
+                    <div class="py-6 px-5 ">
+                        <div >
+                            <img src="images/blog.jpeg" alt="Blog things in detail" class="rounded-xl">
+                        </div>
+                        <div class="mt-10 flex-1 flex-col justify-between">
+                            <header>
+                                <div class="space-x-4">
+                                    <a href="#" class="px-3 py-3 border border-blue-300 text-blue-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Technique</a>
+                                    <a href="#" class="px-3 py-3 border border-red-300 text-red-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Updates</a>
+                                </div>
+                                <div>
+                                    <h1 class="text-3xl mt-4">Yah kdksk klklewioqjfeo lkwnqeonoi woenorij woeoij!</h1>
+                                    <!-- <time class="mt-2 block text-gray-400 text-xs">2 day</time> -->
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Publised <time>1 day</time>
+                                    </span>
+    
+                                </div>
+    
+                            </header>
+    
+                            <div class="text-sm mt-4">
+    
+                                <p>skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+                                <p class="mt-4">skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+    
+    
+                            </div>
+                            <footer class="flex justify-between mt-8 items-center">
+                            
+                                <div class="flex items-center text-sm">
+                                    <img src="images/user.png" width="20" alt="user-hear">
+                                    <div class="ml-3">
+                                        <h5 class="font-bold">HHosdiei</h5>
+                                        <h6>Picutor at user</h6>
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <a href="#" class="text-sm font-semibold bg-gray-200 rounded-full py-2 px-3">Read more</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bg-gray-100 rounded-xl  transition-colors duration-300 hover:border border=black border-opacity-5">
+                    <div class="py-6 px-5 ">
+                        <div >
+                            <img src="images/blog.jpeg" alt="Blog things in detail" class="rounded-xl">
+                        </div>
+                        <div class="mt-10 flex-1 flex-col justify-between">
+                            <header>
+                                <div class="space-x-4">
+                                    <a href="#" class="px-3 py-3 border border-blue-300 text-blue-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Technique</a>
+                                    <a href="#" class="px-3 py-3 border border-red-300 text-red-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Updates</a>
+                                </div>
+                                <div>
+                                    <h1 class="text-3xl mt-4">Yah kdksk klklewioqjfeo lkwnqeonoi woenorij woeoij!</h1>
+                                    <!-- <time class="mt-2 block text-gray-400 text-xs">2 day</time> -->
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Publised <time>1 day</time>
+                                    </span>
+    
+                                </div>
+    
+                            </header>
+    
+                            <div class="text-sm mt-4">
+    
+                                <p>skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+                                <p class="mt-4">skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+    
+    
+                            </div>
+                            <footer class="flex justify-between mt-8 items-center">
+                            
+                                <div class="flex items-center text-sm">
+                                    <img src="images/user.png" width="20" alt="user-hear">
+                                    <div class="ml-3">
+                                        <h5 class="font-bold">HHosdiei</h5>
+                                        <h6>Picutor at user</h6>
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <a href="#" class="text-sm font-semibold bg-gray-200 rounded-full py-2 px-3">Read more</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="grid grid-cols-3">
+                <article class="bg-gray-100 rounded-xl  transition-colors duration-300 hover:border border=black border-opacity-5">
+                    <div class="py-6 px-5 ">
+                        <div >
+                            <img src="images/blog2.jpeg" alt="Blog things in detail" class="rounded-xl">
+                        </div>
+                        <div class="mt-10 flex-1 flex-col justify-between">
+                            <header>
+                                <div class="space-x-4">
+                                    <a href="#" class="px-3 py-3 border border-blue-300 text-blue-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Technique</a>
+                                    <a href="#" class="px-3 py-3 border border-red-300 text-red-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Updates</a>
+                                </div>
+                                <div>
+                                    <h1 class="text-3xl mt-4">Yah kdksk klklewioqjfeo lkwnqeonoi woenorij woeoij!</h1>
+                                    <!-- <time class="mt-2 block text-gray-400 text-xs">2 day</time> -->
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Publised <time>1 day</time>
+                                    </span>
+    
+                                </div>
+    
+                            </header>
+    
+                            <div class="text-sm mt-4">
+    
+                                <p>skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+                                <p class="mt-4">skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+    
+    
+                            </div>
+                            <footer class="flex justify-between mt-8 items-center">
+                            
+                                <div class="flex items-center text-sm">
+                                    <img src="images/user.png" width="20" alt="user-hear">
+                                    <div class="ml-3">
+                                        <h5 class="font-bold">HHosdiei</h5>
+                                        <h6>Picutor at user</h6>
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <a href="#" class="text-sm font-semibold bg-gray-200 rounded-full py-2 px-3">Read more</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bg-gray-100 rounded-xl  transition-colors duration-300 hover:border border=black border-opacity-5">
+                    <div class="py-6 px-5 ">
+                        <div >
+                            <img src="images/blog3.jpeg" alt="Blog things in detail" class="rounded-xl">
+                        </div>
+                        <div class="mt-10 flex-1 flex-col justify-between">
+                            <header>
+                                <div class="space-x-4">
+                                    <a href="#" class="px-3 py-3 border border-blue-300 text-blue-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Technique</a>
+                                    <a href="#" class="px-3 py-3 border border-red-300 text-red-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Updates</a>
+                                </div>
+                                <div>
+                                    <h1 class="text-3xl mt-4">Yah kdksk klklewioqjfeo lkwnqeonoi woenorij woeoij!</h1>
+                                    <!-- <time class="mt-2 block text-gray-400 text-xs">2 day</time> -->
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Publised <time>1 day</time>
+                                    </span>
+    
+                                </div>
+    
+                            </header>
+    
+                            <div class="text-sm mt-4">
+    
+                                <p>skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+                                <p class="mt-4">skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+    
+    
+                            </div>
+                            <footer class="flex justify-between mt-8 items-center">
+                            
+                                <div class="flex items-center text-sm">
+                                    <img src="images/user.png" width="20" alt="user-hear">
+                                    <div class="ml-3">
+                                        <h5 class="font-bold">HHosdiei</h5>
+                                        <h6>Picutor at user</h6>
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <a href="#" class="text-sm font-semibold bg-gray-200 rounded-full py-2 px-3">Read more</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bg-gray-100 rounded-xl  transition-colors duration-300 hover:border border=black border-opacity-5">
+                    <div class="py-6 px-5 ">
+                        <div >
+                            <img src="images/blog2.jpeg" alt="Blog things in detail" class="rounded-xl">
+                        </div>
+                        <div class="mt-10 flex-1 flex-col justify-between">
+                            <header>
+                                <div class="space-x-4">
+                                    <a href="#" class="px-3 py-3 border border-blue-300 text-blue-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Technique</a>
+                                    <a href="#" class="px-3 py-3 border border-red-300 text-red-300 rounded-full font-semibold  text-xs uppercase" style="font-size: 10px;">Updates</a>
+                                </div>
+                                <div>
+                                    <h1 class="text-3xl mt-4">Yah kdksk klklewioqjfeo lkwnqeonoi woenorij woeoij!</h1>
+                                    <!-- <time class="mt-2 block text-gray-400 text-xs">2 day</time> -->
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Publised <time>1 day</time>
+                                    </span>
+    
+                                </div>
+    
+                            </header>
+    
+                            <div class="text-sm mt-4">
+    
+                                <p>skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+                                <p class="mt-4">skldkln wqjeiorp jwjq eoirjqwjero joiqwe jiwoerj iwjertiohgvnjqwheo w w ejoi</p>
+    
+    
+                            </div>
+                            <footer class="flex justify-between mt-8 items-center">
+                            
+                                <div class="flex items-center text-sm">
+                                    <img src="images/user.png" width="20" alt="user-hear">
+                                    <div class="ml-3">
+                                        <h5 class="font-bold">HHosdiei</h5>
+                                        <h6>Picutor at user</h6>
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <a href="#" class="text-sm font-semibold bg-gray-200 rounded-full py-2 px-3">Read more</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+
+        </main>
+
+
+        <footer class="bg-gray-100 border border-black border-opacity-5 rounded-xl text-center mt-16 px-10 py-16">
+            <img src="images/mailbox-full.png" class="mx-auto" width="150" alt="">
+            <h5 class="text-3xl">Best post every day!</h5>
+            <p class="text-sm">No old but latest feed every day no repeat</p>
+
+            <div class="mt-10">
+
+                <div class="relative inline-block  mx-auto bg-gray-200 rounded-full">
+                    
+                    <form method="POST" action="#" class="flex text-sm ">
+
+
+                        <div class="py-3 px-5 inline-flex items-center">
+                            <label for="email">
+                                <img src="images/emial-icon.png" width="25 " alt="emial" >
+                            </label>
+                            <input id="email" type="text" placeholder="Your Email address" class="bg-transparent pl-4 focus-within:outline-none" >
+                        </div>
+
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-8">Subscribe</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </section>
+</body>
