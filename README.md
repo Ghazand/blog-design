@@ -1,7 +1,7 @@
 It is the design of a blog that I have practiced with HTML and tailwind CSS.
 
 The index blog looks like the one below where one post is a feature post, and the rest are arranged firstly in 2 grids. Afterwards three posts subsequently. 
-Header and search option by category or by search input by title name or body text.
+->Header and search option by category or by search input by title name or body text.
 <img width="1348" alt="Screenshot 2024-03-30 at 3 10 07 PM" src="https://github.com/Ghazand/blog-design/assets/37634777/8bca0cfb-405e-4a2b-a027-c66c4af20369">
 
 ->Featured post
